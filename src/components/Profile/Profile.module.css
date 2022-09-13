@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
 
-    padding-top: 20px;
+    width: 100%;
+    padding: 20px 0;
 
     background-color: lightgreen;
     border: 1px solid darkgreen;
@@ -15,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .avatar {
@@ -24,7 +26,7 @@
 
 .name {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .tag {
@@ -32,6 +34,7 @@
 }
 
 .location {
+    margin-bottom: 20px;
     color: darkgreen;
 }
 
@@ -39,16 +42,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: lightgray;
+    gap: 10px;
 }
 
 .item {
     display: block;
-    width: 100px;
+    width: 60px;
     text-align: center;
     padding: 20px;
+    background-color: lightgray;
     border: 1px solid darkgreen;
+}
+
+.item:hover {
+transform: scale(1.05);
 }
 
 .label {
