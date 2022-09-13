@@ -6,8 +6,8 @@
 
     padding-top: 20px;
 
-    background-color: lightblue;
-    border: 1px solid darkblue;
+    background-color: lightgreen;
+    border: 1px solid darkgreen;
 }
 
 .description {
@@ -28,11 +28,11 @@
 }
 
 .tag {
-    color: darkblue;
+    color: darkgreen;
 }
 
 .location {
-    color: darkblue;
+    color: darkgreen;
 }
 
 .stats {
@@ -48,12 +48,12 @@
     width: 100px;
     text-align: center;
     padding: 20px;
-    border: 1px solid darkblue;
+    border: 1px solid darkgreen;
 }
 
 .label {
     display: block;
-    color: darkblue;
+    color: darkgreen;
 }
 
 .quantity {
